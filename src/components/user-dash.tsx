@@ -12,7 +12,7 @@ export function UserDash(){
     let navigate = useNavigate();
 
     useEffect(()=>{
-        axios.get(`http://127.0.0.1:4040/videos`)
+        axios.get(`hhttps://video-server-1-xo7p.onrender.com/videos`)
         .then(response=>{
              setVideos(response.data);
         });
